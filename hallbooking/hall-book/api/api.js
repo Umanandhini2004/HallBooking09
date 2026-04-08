@@ -3,7 +3,8 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // API Base URL
-const API_BASE_URL = 'http://10.72.232.254:5000/api';    
+// const API_BASE_URL = 'http://10.72.232.254:5000/api';    
+const API_BASE_URL ='https://hall-booking09-ten.vercel.app/api';     
 
 const api = axios.create({
   baseURL: API_BASE_URL,
